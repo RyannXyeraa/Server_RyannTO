@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RyannTO | Server Minecraft</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #007bff, #00c6ff, #0040ff);
+      color: #fff;
+      min-height: 100vh;
+      text-align: center;
+      padding: 40px 20px;
+      background-size: 300% 300%;
+      animation: gradientMove 10s ease infinite;
+    }
+
+    @keyframes gradientMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    header {
+      margin-bottom: 25px;
+    }
+
+    header img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 0 25px rgba(0, 153, 255, 0.6);
+      margin-bottom: 15px;
+      transition: 0.3s;
+    }
+
+    header img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 35px rgba(0, 204, 255, 0.8);
+    }
+
+    header h1 {
+      font-size: 2.4rem;
+      margin-bottom: 10px;
+      text-shadow: 0 0 15px rgba(255,255,255,0.5);
+    }
+
+    header p {
+      font-size: 1rem;
+      opacity: 0.9;
+      margin-bottom: 30px;
+    }
+
+    main {
+      max-width: 750px;
+      margin: auto;
+      background: rgba(0, 0, 0, 0.35);
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(255,255,255,0.15);
+    }
+
+    section {
+      margin-bottom: 25px;
+      text-align: left;
+    }
+
+    h2 {
+      color: #cce5ff;
+      margin-bottom: 10px;
+      font-size: 1.6rem;
+    }
+
+    p {
+      line-height: 1.7;
+      font-size: 1.05rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      background: rgba(255,255,255,0.1);
+      margin: 8px 0;
+      padding: 10px;
+      border-radius: 8px;
+    }
+
+    .note {
+      background: rgba(255,255,255,0.25);
+      border-left: 5px solid #99d6ff;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 8px;
+      font-style: italic;
+    }
+
+    .ip-box {
+      background: rgba(255, 255, 255, 0.1);
+      border: 2px solid rgba(255, 255, 255, 0.25);
+      padding: 15px;
+      border-radius: 10px;
+      margin-top: 15px;
+    }
+
+    .ip-box code {
+      background: rgba(0, 0, 0, 0.3);
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .back {
+      display: block;
+      margin: 30px auto 0;
+      width: fit-content;
+      padding: 10px 20px;
+      background: rgba(0, 102, 204, 0.8);
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: 0.3s;
+      box-shadow: 0 0 10px rgba(255,255,255,0.3);
+    }
+
+    .back:hover {
+      background: #0099ff;
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(255,255,255,0.6);
+    }
+
+    footer {
+      margin-top: 40px;
+      opacity: 0.85;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <!-- Logo PNG lokal di folder yang sama -->
+    <img src="logo.png" alt="Logo Server RyannTO">
+    <h1>Server RyannTO</h1>
+    <p>Bergabung dan rasakan keseruan Minecraft bareng komunitas RyannTO!</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>🌍 Tentang Server</h2>
+      <p>Server ini dibuat untuk kamu yang suka bermain santai tapi tetap kompetitif.  
+      Ada mode Bedwars, Survival, dan event mingguan seru yang selalu update!</p>
+    </section>
+
+    <section>
+      <h2>💠 Informasi Server</h2>
+
+      <div class="ip-box">
+        <h3>💻 Java Edition</h3>
+        <p>IP: <code>xye.ddns.net:29233</code></p>
+        <p>Versi: 1.8 - 1.20.6+</p>
+      </div>
+
+      <div class="ip-box">
+        <h3>📱 Bedrock Edition</h3>
+        <p>IP: <code>xye.ddns.net</code></p>
+        <p>Port: <code>25800</code></p>
+        <p>Versi: New Version</p>
+      </div>
+
+      <div class="note">
+        💡 Tips: Pastikan koneksi kamu stabil dan versi Minecraft sesuai server ya!
+      </div>
+    </section>
+
+    <section>
+      <h2>📜 Aturan Server</h2>
+      <ul>
+        <li>🚫 Boleh menggunakan Xray, tapi tidak boleh menggunakan cheat yang merugikan orang lain.</li>
+        <li>💬 Hormati semua pemain & admin.</li>
+        <li>🔨 Jangan hancurkan bangunan pemain lain (griefing).</li>
+        <li>🎁 Laporkan bug atau player curang ke admin di Grub WhatsApp.</li>
+        <li>⚙️ Gunakan skin dan nama yang sopan.</li>
+      </ul>
+      <div class="note">Server dijaga agar tetap fun, adil, dan nyaman 💙</div>
+    </section>
+
+    <section>
+      <h2>🎉 Event & Reward</h2>
+      <p>Setiap minggu ada <b>Lolot</b> dan <b>Reward Top Player</b>!  
+      Ayo join dan buktikan siapa pemain terbaik di dunia RyannTO!</p>
+    </section>
+
+    <a href="https://ryannxyeraa.github.io/MyGithub/" class="back">🏠 Kembali ke Home</a>
+  </main>
+
+  <footer>
+    © 2025 RyannTO | Server dibangun dengan cinta dan obsidian 💙
+  </footer>
+
+</body>
+</html>
